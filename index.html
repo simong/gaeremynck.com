@@ -24,7 +24,6 @@
         #container {
             display: flex;
             flex-direction: column;
-            height: 100%;
         }
 
         header {
@@ -65,6 +64,11 @@
             max-width: 95%;
         }
 
+        main a {
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+
         footer {
             background-image: url('images/wedding/footer-flowers.png');
             background-repeat: no-repeat;
@@ -76,7 +80,7 @@
 
         @media only screen and (max-width: 600px) {
             header, footer {
-                flex: 0 0 100px;
+                flex: 0 0 250px;
             }
             main {
                 padding: 20px;
